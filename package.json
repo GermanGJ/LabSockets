@@ -1,0 +1,29 @@
+{
+  "name": "LabSockets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "RummiQS.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node RummiQS.js",
+    "start-dev": "nodemon RummiQS.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GermanGJ/LabSockets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GermanGJ/LabSockets/issues"
+  },
+  "homepage": "https://github.com/GermanGJ/LabSockets#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.10",
+    "mongoose-pagination": "^1.0.0",
+    "nodemon": "^2.0.3",
+    "socket.io": "^2.3.0"
+  }
+}

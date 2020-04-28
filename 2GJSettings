@@ -1,0 +1,6 @@
+10- npm init --yes
+20- npm i express
+30- npm i socket.io
+40- npm i nodemon -D
+50- npm install mongoose --save
+60- npm install mongoose-pagination --save

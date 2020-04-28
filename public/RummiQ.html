@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RummiQ</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <h1>RummiQ</h1>
+
+    <div class="MenuInicioJuego">
+        <button id="NuevaPartida">Nueva Partida</button>
+        <button id="UnirsePartida">Unirse a Partida</button>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div id="CrearPartida">
+        <label>Crea Nueva Partida</label>
+        <br>
+        <br>
+        <input type="text" id="NomJugadorCreador" placeholder="Nombre Jugador">
+        <input type="text" id="NomPartida" placeholder="Nombre Partida">
+        <br>
+        <br>
+        <button id="btnCrearPartida">Crear Partida</button>
+        <br>
+        <br>
+    </div>
+
+    <div id="UnirmePartida">
+        <label>Unirme a Partida</label>
+        <br>
+        <br>
+        <input type="text" id="NomJugador" placeholder="Nombre Jugador">
+        <input type="text" id="Partida" placeholder="Partida">
+        <br>
+        <br>
+        <button id="btnUnirmePartida">Unirme Partida</button>
+        <br>
+        <br>
+    </div>
+
+    <div id="ListaJugadores">
+    </div>
+
+    <script src="/socket.io/socket.io.js" charset="utf-8"></script>
+    <script src="js/RummiQC.js" charset="utf-8"></script>
+</body>
+</html>
